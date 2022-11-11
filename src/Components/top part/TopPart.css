@@ -1,10 +1,16 @@
 .top-part {
-  height: 179px; /* 0.4358% */
-  background: url("../../assets/Cover\ Image.jpg");
+  height: 179px; 
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 70.26%,
+      rgba(0, 0, 0, 0.43) 100%
+    ),
+    url("../../assets/Cover\ Image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 8px;
+    border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
 }
 
 .image-and-text-container {
@@ -28,4 +34,10 @@
   align-items: center;
   width: 263px;
   height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
 }

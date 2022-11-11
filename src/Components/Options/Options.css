@@ -1,3 +1,10 @@
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
 .options-button {
   height: 36px;
   width: 36px;
@@ -6,4 +13,27 @@
 .options-button img {
   height: 100%;
   width: 100%;
+}
+
+.like-share-container {
+  display: flex;
+  gap: 16px;
+}
+
+.options-button,
+.dots {
+  height: 36px;
+  width: 36px;
+  background-color: white;
+  border: none;
+}
+
+.options-button img {
+  height: 19px;
+  width: auto;
+}
+
+.dots img {
+  width: 16px;
+  height: 4px;
 }

@@ -2,12 +2,6 @@
   padding: 16px;
 }
 
-.bottom-part-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
 .title-container {
   height: 52px;
   font-family: "Roboto";
@@ -19,14 +13,17 @@
 }
 
 .author-container {
-  width: 248px;
+  width: 276px;
   height: 20px;
+  line-height: 20px;
+  color: #212121;
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+.author-container p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 20px;
-  color: #212121;
 }
-
-

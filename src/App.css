@@ -8,8 +8,9 @@
 .container {
   width: 367px;
   height: 413px;
-  border: 1px solid red;
-  border-radius: 8px;
+  box-shadow: 0px 4px 24px 0px #b8c5d378;
+  background: #ffffff;
+  border: 1px solid #eaedf0;
+  box-shadow: 0px 4px 24px rgba(184, 197, 211, 0.47);
+  border-radius: 12px;
 }
-
-

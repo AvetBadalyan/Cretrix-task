@@ -1,8 +1,24 @@
+.progress-container {
+  margin-top: 20px;
+}
+
+.progress-text {
+  width: 260px;
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9c9c9c;
+}
+
 .progress-display {
   height: 12px;
   width: 335px;
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
+  margin-top: 2px;
 }
 
 .progress-word {
@@ -17,7 +33,7 @@
   background: linear-gradient(90deg, #4ce77b 0%, #73f49a 100%);
   width: 227px;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 100px;
 }
 
 .progress-white-part {

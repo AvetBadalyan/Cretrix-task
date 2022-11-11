@@ -12,7 +12,8 @@ export default function BottomPart() {
         </div>
 
         <div className="author-container">
-          <p> By: Nana McDougall</p>
+          <p> By:</p>
+          <p> Nana McDougall</p>
         </div>
 
         <ProgressContainer />
