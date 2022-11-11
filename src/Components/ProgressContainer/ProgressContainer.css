@@ -1,0 +1,27 @@
+.progress-display {
+  height: 12px;
+  width: 335px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.progress-word {
+  color: #9c9c9c;
+}
+
+.progress-percent {
+  color: #4ce77b;
+}
+
+.progress-green-part {
+  background: linear-gradient(90deg, #4ce77b 0%, #73f49a 100%);
+  width: 227px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.progress-white-part {
+  background: #f0f0f0;
+  height: 100%;
+  width: 108px;
+}
