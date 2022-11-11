@@ -1,0 +1,45 @@
+.bottom-part {
+  padding: 16px;
+}
+
+.bottom-part-container {
+}
+
+.title-container {
+  height: 52px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #212121;
+}
+
+.author-container {
+  width: 248px;
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+
+.progress-display {
+  height: 12px;
+  width: 335px;
+  border: 1px solid grey;
+}
+
+.options-button {
+    height: 36px;
+    width: 36px;
+}
+
+.options-button img {
+    height: 100%;
+    width: 100%;
+}
+
+

@@ -1,0 +1,31 @@
+.top-part {
+  height: 179px; /* 0.4358% */
+  background: url("../../assets/Cover\ Image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.image-and-text-container {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+}
+
+.girl-image {
+  width: 52px;
+  height: 52px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.top-part-text-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 263px;
+  height: 20px;
+}
