@@ -16,7 +16,10 @@ export default function BottomPart() {
         </div>
 
         <div className="progress-container">
-          <p> Progress: 64%</p>
+          <p>
+           
+           <span className="progress-word">Progress:</span>  <span className="progress-percent">64%</span>
+          </p>
           <div className="progress-display">
             <div className="progress-green-part"></div>
             <div className="progress-white-part"></div>
