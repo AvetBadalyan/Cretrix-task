@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .container {
   width: 367px;
   height: 413px;
-  border: 1px solid rgba(0, 0, rgb(0, 229, 255), 0.9);
+  border: 1px solid red;
   border-radius: 8px;
 }
